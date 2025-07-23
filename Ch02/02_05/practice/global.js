@@ -9,7 +9,7 @@ const questions = [
 const answers = [];
 
 function ask(i = 0) {
-  process.stdout.write(`\n${questions[i]}`);
+  process.stdout.write(`\n${questions[i]}\n`);
   process.stdout.write(" > ");
 }
 
